@@ -7,17 +7,17 @@
 
 // #define NOTHING 0
 // #define NOTHING 1
-#define LED_PIN_A 2
-#define LED_PIN_B 3
-#define LED_PIN_C 4
-#define LED_PIN_D 5
-#define LED_PIN_E 6
-#define LED_PIN_F 7
-#define LED_PIN_G 8
-#define LED_PIN_D1 9
-#define LED_PIN_D2 10
-#define LED_PIN_D3 11
-#define LED_PIN_D4 12
+#define REMOTE_RECV_PIN 2
+// #define NOTHING 3
+// #define NOTHING 4
+// #define NOTHING 5
+// #define NOTHING 6
+// #define NOTHING 7
+// #define NOTHING 8
+// #define NOTHING 9
+// #define NOTHING 10
+// #define NOTHING 11
+// #define NOTHING 12
 // #define NOTHING 13
 
 /* Analog pins */

@@ -1,6 +1,7 @@
 #ifndef DISPLAY_HPP
 #define DISPLAY_HPP
 
+#include <model/i_model.hpp>
 #include <pins_mapping.hpp>
 #include <LiquidCrystal_I2C.h>
 
@@ -19,7 +20,7 @@
 #define DISPLAY_BACKLIGHT_PIN 3
 #define DISPLAY_BACKPOL_DEFAULT POSITIVE
 
-class Display : public LiquidCrystal_I2C {
+class Display : public IModel, public LiquidCrystal_I2C {
     public:
         using LiquidCrystal_I2C::LiquidCrystal_I2C;
 
