@@ -13,10 +13,10 @@
 // #define NOTHING 5
 // #define NOTHING 6
 // #define NOTHING 7
-// #define NOTHING 8
-// #define NOTHING 9
-// #define NOTHING 10
-// #define NOTHING 11
+#define MOTOR_IN_1 8
+#define MOTOR_IN_2 9
+#define MOTOR_IN_3 10
+#define MOTOR_IN_4 11
 // #define NOTHING 12
 // #define NOTHING 13
 
